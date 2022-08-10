@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+@font-face {
+    font-family: Gallendo;
+    src:url(./fontes/gallendo/Gallendo.otf) format('opentype');
+}
+
+/*Não esquecer de limpar o código*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;   
+    color:wheat;
+}
+
+#menu{
+    margin: 10px 0;
+}
+
+#menu ul li{
+    display: inline;
+    line-height: 18px;
+    margin: 0 30px;
+}
+
+#menu a{
+    font-size: 20px;
+    font-family: Old Standard TT;
+    color: aliceblue;
+    padding: 0 100px;
+}
+
+/*Não esquecer de limpar o código*/
+
+header{
+    background-image:url(./images/fundo3.png);
+    background-size: calc(1350px);
+    background-color: rgb(209, 233, 255);
+    width: 1350px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 100px;
+    /*font-family: Special Elite;*/
+    font-family: Fredericka the Great;
+    font-weight:lighter;
+    text-shadow: 7px 5px 3px rgb(31, 154, 255);
+    color: black;
+}
+.center p{
+    color: black;
+    font-family: Old Standard TT;
+    font-size: 30px;
+    text-align: right;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 100%;
+    height: 100vh;
+}
+
+main{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+/*Não esquecer de limpar o código*/
+
+.titulo{
+    flex-basis: 48%;
+    font-family: Fredericka the Great;
+    font-size: 50px;
+    font-weight: lighter;
+    transform: rotate(-90deg);
+    /*border: 1px solid white;*/
+    text-align: center;
+    color: rgb(0, 144, 201);
+    text-shadow: 3px 1px 40px rgb(0, 110, 212);
+
+}
+
+#sobre{
+    background-image: url(./images/fundotr.png);
+    background-size: contain;
+    margin-top: 200px;
+}
+
+.texto{
+    display: flex;
+    /*border: 2px solid wheat;*/
+    float: left;
+    width: 100%;
+    max-height: 100vh;
+    justify-items:center;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.texto p{
+    font-size: 20px;
+    line-height: 30px;
+    text-indent: 40px;
+    padding: 35px;
+}
+
+.img-sobre{
+    width: 400px;
+    height: 350px;
+    float: right;
+    text-align: center;
+    padding: 35px;
+    border-radius: 50%;
+}
+
+.txt-formacao{
+    flex-direction: row-reverse;
+    padding-top: 50px;
+    /*border: 2px solid white;*/
+}
+
+.txt-formacao p{
+    text-indent: 0;
+}
+
+#formacao{
+    background-image: url(./images/fundo1.png);
+    background-size: contain;
+    margin-top: 150px;
+}
+
+/*Não esquecer de limpar o código*/
+
+#contato{
+    background-image: url(./images/fundo3.png);
+    background-size: cover;
+    background-color: rgb(209, 233, 255);
+    margin-top: 100px;
+    padding-top: 75px;
+    border: 1px solid black;
+
+}
+
+#contato h2{
+    font-family: Gallendo;
+    font-weight:lighter;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    padding: 15px 0;
+    transform: rotate(-4deg);
+    text-shadow: 3px 5px 5px rgb(111, 169, 216);
+    /*border: 1px solid black;*/
+}
+
+#contato img{
+    width: 150px;
+    height: 150px;
+    /*border: 1px solid black;*/
+    margin: 40px;
+}
+
+.link-contato{
+    display: flex;
+    justify-content: space-around;
+    /*border: 1px solid black;*/
+    text-align: center;
+   
+}
+
+.link-contato p{
+    font-family: Old Standard TT;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 20px;
+    color: wheat;
+    margin: 10px 0;
+}
+
+/*Não esquecer de limpar o código!!!
+-adicionar botão de navegação entre as sessões
+-mudar a apresentação do elemento quando passa o mouse - menu
+-adicionar seção para outros dispositivos - layout responsivo
+-editar footer*/
