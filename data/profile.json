@@ -1,0 +1,95 @@
+{
+  "name": "Aline Monteiro",
+  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+  "job": "Junior Developer",
+  "location": "Curitiba - PR",
+  "phone": "(41) 99846-1394",
+  "email": "aline.monts@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/alinemonts/portfolio/main/assets/img/skills/html.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/alinemonts/portfolio/main/assets/img/skills/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/alinemonts/portfolio/main/assets/img/skills/javascript.png"
+      },
+      {
+        "name": "Ruby",
+        "logo": "https://raw.githubusercontent.com/alinemonts/portfolio/main/assets/img/skills/ruby.png"
+      },
+      {
+        "name": "Rails",
+        "logo": "https://raw.githubusercontent.com/alinemonts/portfolio/main/assets/img/skills/rails.png"
+      },
+        {
+        "name": "Linux",
+        "logo": "https://raw.githubusercontent.com/alinemonts/portfolio/main/assets/img/skills/linux.png"
+      },
+        {
+        "name": "Docker",
+        "logo": "https://raw.githubusercontent.com/alinemonts/portfolio/main/assets/img/skills/docker.png"
+      },
+        {
+        "name": "Git",
+        "logo": "https://raw.githubusercontent.com/alinemonts/portfolio/main/assets/img/skills/git.png"
+      },
+      {
+        "name": "Postgresql",
+        "logo": "https://raw.githubusercontent.com/alinemonts/portfolio/main/assets/img/skills/postgresql.png"
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Liderança",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização"
+    ]
+  },
+  "languages": [
+    "Português-BR (nativo)",
+    "Espanhol (avançado)",
+    "Inglês (intermediário)",
+    "Francês (iniciante)"
+  ],
+  "portfolio": [
+    {
+      "name": "Projetos Formação Ruby Developer - DIO",
+      "url": "https://github.com/alinemonts/Ruby-Dio",
+      "github": true
+    },
+    {
+      "name": "Agenda de contatos em Ruby",
+      "url": "https://github.com/alinemonts/Agenda_contatos",
+      "github": true
+    },
+    {
+      "name": "Portfólio criado durante a formação JavaScript Developer - DIO",
+      "url": "https://github.com/alinemonts/portfolio",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "",
+      "period": "2022 - até o momento",
+      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+    },
+    {
+      "name": "Assistente Administrativo - Vidraria.com",
+      "period": "2020 - 2022",
+      "description": ""
+    },
+    {
+      "name": "Editora de imagens - Freelancer",
+      "period": "2019 - 2021",
+      "description": "Edição de imagens e vídeos para divulgação em redes sociais, com utilização de ferramentas de edição, como Adobe Photoshop, Lightroom e Adobe Premiere, além de outros softwares de edição, como Gimp, Inkscape, Hitfilm e DaVinci Resolve."
+    }
+  ]
+}
