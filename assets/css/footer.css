@@ -6,3 +6,12 @@
 .footer a:hover {
         color: #9ea8ff;
 }
+
+.footer .dio {
+    display: flex;
+    justify-content: center;
+
+}
+.footer .dio img {
+    max-width: 125px;
+}
